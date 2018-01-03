@@ -1,7 +1,7 @@
 {
   "name": "node-arp",
-  "version": "1.0.5",
-  "description" : "Read the ARP table to find MAC addresses (forked from tecknopaul)",
+  "version": "1.0.5b",
+  "description" : "Read the ARP table to find MAC addresses (forked from nekuz0r)",
   "directories": {
     "lib": "./lib"
   },
@@ -10,12 +10,12 @@
     "node": "*"
   },
   "keywords": [
-      "arp", "mac", "ip", "network", "arp table"
+      "arp", "mac", "ip", "network", "arp table", "arpscan"
   ],
   "repository" : { 
       "type" : "git", 
-      "url" : "https://github.com/nekuz0r/node-arp.git" 
+      "url" : "https://github.com/jymbob/node-arp.git" 
   },
-  "author": "Leandre Gohy <leandre.gohy@hexeo.be>",
+  "author": "James Scholes <jamesscholes@gmail.com>",
   "license": "MIT"
 }
