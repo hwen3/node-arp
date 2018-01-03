@@ -11,6 +11,12 @@ arp.getMAC('192.168.0.1', function(err, mac) {
         console.log(mac);
     }
 });
+
+arp.getRawMAC('aa:bb:cc:dd:ee:ff', function(err, mac) {
+    if (!err) {
+        console.log(mac);
+    }
+});
 ```
 
 License
